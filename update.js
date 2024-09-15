@@ -4,7 +4,7 @@ document.getElementById('back').addEventListener('click', function () {
 document.getElementById('pass_input').addEventListener('click', function () {
     const pass = document.getElementById('pass');
     const password = pass.value;
-    if (password === '1234') {
+    if (password === 'arif341a') {
         window.location.href = 'change.html';
     }
     else {

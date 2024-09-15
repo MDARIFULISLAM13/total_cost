@@ -42,7 +42,7 @@ document.getElementById('rows-container').addEventListener('click', function (ev
     if (event.target.classList.contains('delete-btn')) {
         const index = event.target.getAttribute('data-index');
         const pin = prompt('Enter PIN to delete this row:');
-        if (pin === '1234') {
+        if (pin === 'arif341a') {
             deleteRow(index);
         } else {
             alert('Incorrect PIN. Row not deleted.');
@@ -59,5 +59,7 @@ function deleteRow(index) {
 
     displayRows();
 }
-
+document.getElementById('main').addEventListener('click', function () {
+    window.location.href = 'main.html';
+})
 window.onload = displayRows;
