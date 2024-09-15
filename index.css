@@ -1,0 +1,29 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+#login_page {
+
+    text-align: center;
+    margin-top: 20%;
+
+}
+
+#pass {
+    background-color: rgb(227, 233, 231);
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    color: black;
+}
+
+#input_pass {
+    background-color: #4f4848;
+    width: 60px;
+    height: 40px;
+
+}
