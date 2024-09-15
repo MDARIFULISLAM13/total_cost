@@ -1,0 +1,54 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+
+}
+
+#menu {
+    height: 60px;
+    background-color: #313030;
+    color: rgba(240, 248, 255, 0.622);
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#update {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: #5091535f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
