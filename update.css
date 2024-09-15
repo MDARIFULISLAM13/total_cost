@@ -1,0 +1,32 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+
+}
+
+body {
+    background-color: #384b7022;
+}
+
+#pass {
+    height: 40px;
+    margin-top: 20%;
+    background-color: #5076873a;
+    color: rgb(0, 0, 0);
+}
+
+#pass_input {
+    height: 30px;
+    text-align: center;
+    width: 60px;
+    background-color: #696464;
+}
+
+#back {
+    height: 30px;
+    margin-top: 20px;
+    text-align: center;
+    width: 60px;
+    background-color: #696464;
+}
